@@ -1,0 +1,88 @@
+2018-05-05 11:00:23 [main] Starting UserTest on zhangkundeMacBook-Pro.local with PID 39856 (started by zk in /Users/zk/IdeaProjects/raise)
+2018-05-05 11:00:23 [main] The following profiles are active: dev
+2018-05-05 11:00:23 [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5e77f0f4: startup date [Sat May 05 11:00:23 CST 2018]; root of context hierarchy
+2018-05-05 11:00:25 [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-05-05 11:00:26 [main] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-05-05 11:00:26 [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8612eade] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-05 11:00:26 [main] Bean 'redisConfig' of type [com.black.kun.raise.config.RedisConfig$$EnhancerBySpringCGLIB$$6b76d6fc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-05 11:00:26 [main] Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$cf2520fc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-05 11:00:26 [main] Bean 'org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$$EnhancerBySpringCGLIB$$c398e5a0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-05 11:00:26 [main] Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-05 11:00:26 [main] Bean 'spring.cache-org.springframework.boot.autoconfigure.cache.CacheProperties' of type [org.springframework.boot.autoconfigure.cache.CacheProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-05 11:00:26 [main] Bean 'cacheManagerCustomizers' of type [org.springframework.boot.autoconfigure.cache.CacheManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-05 11:00:26 [main] Bean 'org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration' of type [org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration$$EnhancerBySpringCGLIB$$742a81fa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-05 11:00:26 [main] Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-05 11:00:26 [main] Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$9b2ca928] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-05 11:00:26 [main] Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-05 11:00:27 [main] Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-05 11:00:27 [main] Bean 'cacheManager' of type [org.springframework.data.redis.cache.RedisCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-05 11:00:27 [main] Bean 'cacheAutoConfigurationValidator' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$CacheManagerValidator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-05 11:00:27 [main] HikariPool-1 - Starting...
+2018-05-05 11:00:28 [main] HikariPool-1 - Start completed.
+2018-05-05 11:00:30 [main] Mapped "{[/test/testEnv],methods=[POST]}" onto public com.black.kun.raise.entity.vo.BaseResponse com.black.kun.raise.controller.demo.TestController.testEnv()
+2018-05-05 11:00:30 [main] Mapped "{[/test/testValidation],methods=[POST]}" onto public com.black.kun.raise.entity.vo.BaseResponse com.black.kun.raise.controller.demo.TestController.testValidation(com.black.kun.raise.entity.vo.TestVo,org.springframework.validation.BindingResult)
+2018-05-05 11:00:30 [main] Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-05-05 11:00:30 [main] Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-05-05 11:00:30 [main] Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-05-05 11:00:30 [main] Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-05-05 11:00:30 [main] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-05 11:00:30 [main] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-05 11:00:31 [main] Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5e77f0f4: startup date [Sat May 05 11:00:23 CST 2018]; root of context hierarchy
+2018-05-05 11:00:32 [main] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-05 11:00:32 [main] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-05 11:00:32 [main] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-05 11:00:32 [main] SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@5e77f0f4: startup date [Sat May 05 11:00:23 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-05-05 11:00:32 [main] ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-05-05 11:00:33 [main] Starting beans in phase 2147483647
+2018-05-05 11:00:33 [main] Context refreshed
+2018-05-05 11:00:33 [main] Found 1 custom documentation plugin(s)
+2018-05-05 11:00:33 [main] Scanning for api listing references
+2018-05-05 11:00:33 [main] Started UserTest in 11.989 seconds (JVM running for 14.673)
+2018-05-05 11:00:33 [Thread-2] Closing org.springframework.web.context.support.GenericWebApplicationContext@5e77f0f4: startup date [Sat May 05 11:00:23 CST 2018]; root of context hierarchy
+2018-05-05 11:00:33 [Thread-2] Stopping beans in phase 2147483647
+2018-05-05 11:00:33 [Thread-2] HikariPool-1 - Shutdown initiated...
+2018-05-05 11:00:33 [Thread-2] HikariPool-1 - Shutdown completed.
+2018-05-05 11:43:28 [main] Starting UserTest on zhangkundeMacBook-Pro.local with PID 40633 (started by zk in /Users/zk/IdeaProjects/raise)
+2018-05-05 11:43:28 [main] The following profiles are active: dev
+2018-05-05 11:43:28 [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@31024624: startup date [Sat May 05 11:43:28 CST 2018]; root of context hierarchy
+2018-05-05 11:43:30 [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-05-05 11:43:30 [main] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-05-05 11:43:31 [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3f86d467] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-05 11:43:31 [main] Bean 'redisConfig' of type [com.black.kun.raise.config.RedisConfig$$EnhancerBySpringCGLIB$$24eac085] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-05 11:43:31 [main] Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$88990a85] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-05 11:43:31 [main] Bean 'org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$$EnhancerBySpringCGLIB$$7d0ccf29] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-05 11:43:31 [main] Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-05 11:43:31 [main] Bean 'spring.cache-org.springframework.boot.autoconfigure.cache.CacheProperties' of type [org.springframework.boot.autoconfigure.cache.CacheProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-05 11:43:31 [main] Bean 'cacheManagerCustomizers' of type [org.springframework.boot.autoconfigure.cache.CacheManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-05 11:43:31 [main] Bean 'org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration' of type [org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration$$EnhancerBySpringCGLIB$$2d9e6b83] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-05 11:43:31 [main] Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-05 11:43:31 [main] Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$54a092b1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-05 11:43:31 [main] Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-05 11:43:31 [main] Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-05 11:43:31 [main] Bean 'cacheManager' of type [org.springframework.data.redis.cache.RedisCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-05 11:43:31 [main] Bean 'cacheAutoConfigurationValidator' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$CacheManagerValidator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-05 11:43:32 [main] HikariPool-1 - Starting...
+2018-05-05 11:43:33 [main] HikariPool-1 - Start completed.
+2018-05-05 11:43:34 [main] Mapped "{[/test/testValidation],methods=[POST]}" onto public com.black.kun.raise.entity.vo.BaseResponse com.black.kun.raise.controller.demo.TestController.testValidation(com.black.kun.raise.entity.vo.TestVo,org.springframework.validation.BindingResult)
+2018-05-05 11:43:34 [main] Mapped "{[/test/testEnv],methods=[POST]}" onto public com.black.kun.raise.entity.vo.BaseResponse com.black.kun.raise.controller.demo.TestController.testEnv()
+2018-05-05 11:43:34 [main] Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-05-05 11:43:34 [main] Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-05-05 11:43:34 [main] Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-05-05 11:43:34 [main] Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-05-05 11:43:34 [main] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-05 11:43:34 [main] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-05 11:43:36 [main] Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@31024624: startup date [Sat May 05 11:43:28 CST 2018]; root of context hierarchy
+2018-05-05 11:43:36 [main] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-05 11:43:36 [main] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-05 11:43:36 [main] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-05 11:43:37 [main] SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@31024624: startup date [Sat May 05 11:43:28 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-05-05 11:43:37 [main] ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-05-05 11:43:37 [main] Starting beans in phase 2147483647
+2018-05-05 11:43:37 [main] Context refreshed
+2018-05-05 11:43:38 [main] Found 1 custom documentation plugin(s)
+2018-05-05 11:43:38 [main] Scanning for api listing references
+2018-05-05 11:43:38 [main] Started UserTest in 11.493 seconds (JVM running for 14.524)
+2018-05-05 11:43:38 [Thread-2] Closing org.springframework.web.context.support.GenericWebApplicationContext@31024624: startup date [Sat May 05 11:43:28 CST 2018]; root of context hierarchy
+2018-05-05 11:43:38 [Thread-2] Stopping beans in phase 2147483647
+2018-05-05 11:43:38 [Thread-2] HikariPool-1 - Shutdown initiated...
+2018-05-05 11:43:38 [Thread-2] HikariPool-1 - Shutdown completed.

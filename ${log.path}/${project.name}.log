@@ -1,0 +1,133 @@
+2018-05-10 15:02:42 [main] Starting RaiseApplication on zhangkundeMacBook-Pro.local with PID 40972 (/Users/zk/IdeaProjects/raise/target/classes started by zk in /Users/zk/IdeaProjects/raise)
+2018-05-10 15:02:42 [main] The following profiles are active: dev
+2018-05-10 15:02:42 [main] Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@f325091: startup date [Thu May 10 15:02:42 CST 2018]; root of context hierarchy
+2018-05-10 15:02:44 [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-05-10 15:02:44 [main] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-05-10 15:02:44 [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$80ed0c58] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-10 15:02:44 [main] Bean 'redisConfig' of type [com.black.kun.raise.config.RedisConfig$$EnhancerBySpringCGLIB$$6650f876] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-10 15:02:44 [main] Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$c9ff4276] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-10 15:02:45 [main] Bean 'org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$$EnhancerBySpringCGLIB$$be73071a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-10 15:02:45 [main] Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-10 15:02:45 [main] Bean 'spring.cache-org.springframework.boot.autoconfigure.cache.CacheProperties' of type [org.springframework.boot.autoconfigure.cache.CacheProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-10 15:02:45 [main] Bean 'cacheManagerCustomizers' of type [org.springframework.boot.autoconfigure.cache.CacheManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-10 15:02:45 [main] Bean 'org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration' of type [org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration$$EnhancerBySpringCGLIB$$6f04a374] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-10 15:02:45 [main] Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-10 15:02:45 [main] Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$9606caa2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-10 15:02:45 [main] Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-10 15:02:45 [main] Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-10 15:02:45 [main] Bean 'cacheManager' of type [org.springframework.data.redis.cache.RedisCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-10 15:02:45 [main] Bean 'cacheAutoConfigurationValidator' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$CacheManagerValidator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-10 15:02:45 [main] Tomcat initialized with port(s): 8080 (http)
+2018-05-10 15:02:46 [main] Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-10 15:02:46 [main] Starting service [Tomcat]
+2018-05-10 15:02:46 [main] Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-05-10 15:02:46 [localhost-startStop-1] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-05-10 15:02:46 [localhost-startStop-1] Initializing Spring embedded WebApplicationContext
+2018-05-10 15:02:46 [localhost-startStop-1] Root WebApplicationContext: initialization completed in 3748 ms
+2018-05-10 15:02:46 [localhost-startStop-1] Servlet dispatcherServlet mapped to [/]
+2018-05-10 15:02:46 [localhost-startStop-1] Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-10 15:02:46 [localhost-startStop-1] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-10 15:02:46 [localhost-startStop-1] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-10 15:02:46 [localhost-startStop-1] Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-10 15:02:46 [main] HikariPool-1 - Starting...
+2018-05-10 15:02:47 [main] HikariPool-1 - Start completed.
+2018-05-10 15:02:49 [main] Mapped "{[/test/testEnv],methods=[POST]}" onto public com.black.kun.raise.entity.vo.BaseResponse com.black.kun.raise.controller.demo.TestController.testEnv()
+2018-05-10 15:02:49 [main] Mapped "{[/test/testValidation],methods=[POST]}" onto public com.black.kun.raise.entity.vo.BaseResponse com.black.kun.raise.controller.demo.TestController.testValidation(com.black.kun.raise.entity.vo.TestVo,org.springframework.validation.BindingResult)
+2018-05-10 15:02:49 [main] Mapped "{[/test/aopValidation],methods=[POST]}" onto public com.black.kun.raise.entity.vo.BaseResponse com.black.kun.raise.controller.demo.TestController.aopValidation(com.black.kun.raise.entity.vo.TestAop)
+2018-05-10 15:02:49 [main] Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-05-10 15:02:49 [main] Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-05-10 15:02:49 [main] Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-05-10 15:02:49 [main] Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-05-10 15:02:49 [main] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-10 15:02:49 [main] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-10 15:02:50 [main] Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@f325091: startup date [Thu May 10 15:02:42 CST 2018]; root of context hierarchy
+2018-05-10 15:02:50 [main] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-10 15:02:50 [main] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-10 15:02:50 [main] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-10 15:02:51 [main] SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@f325091: startup date [Thu May 10 15:02:42 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-05-10 15:02:51 [main] ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-05-10 15:02:51 [main] Registering beans for JMX exposure on startup
+2018-05-10 15:02:51 [main] Bean with name 'raiseDataSource' has been autodetected for JMX exposure
+2018-05-10 15:02:51 [main] Located MBean 'raiseDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=raiseDataSource,type=HikariDataSource]
+2018-05-10 15:02:51 [main] Starting beans in phase 2147483647
+2018-05-10 15:02:51 [main] Context refreshed
+2018-05-10 15:02:51 [main] Found 1 custom documentation plugin(s)
+2018-05-10 15:02:51 [main] Scanning for api listing references
+2018-05-10 15:02:52 [main] Starting ProtocolHandler ["http-nio-8080"]
+2018-05-10 15:02:52 [main] Using a shared selector for servlet write/read
+2018-05-10 15:02:52 [main] Tomcat started on port(s): 8080 (http) with context path ''
+2018-05-10 15:02:52 [main] Started RaiseApplication in 11.147 seconds (JVM running for 13.452)
+2018-05-10 15:03:25 [http-nio-8080-exec-1] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-10 15:03:25 [http-nio-8080-exec-1] FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-10 15:03:25 [http-nio-8080-exec-1] FrameworkServlet 'dispatcherServlet': initialization completed in 47 ms
+2018-05-10 15:07:55 [Thread-27] Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@f325091: startup date [Thu May 10 15:02:42 CST 2018]; root of context hierarchy
+2018-05-10 15:07:55 [Thread-27] Stopping beans in phase 2147483647
+2018-05-10 15:07:55 [Thread-27] Unregistering JMX-exposed beans on shutdown
+2018-05-10 15:07:55 [Thread-27] Unregistering JMX-exposed beans
+2018-05-10 15:07:55 [Thread-27] HikariPool-1 - Shutdown initiated...
+2018-05-10 15:07:55 [Thread-27] HikariPool-1 - Shutdown completed.
+2018-05-10 15:08:05 [main] Starting RaiseApplication on zhangkundeMacBook-Pro.local with PID 41047 (/Users/zk/IdeaProjects/raise/target/classes started by zk in /Users/zk/IdeaProjects/raise)
+2018-05-10 15:08:05 [main] The following profiles are active: dev
+2018-05-10 15:08:05 [main] Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@30b34287: startup date [Thu May 10 15:08:05 CST 2018]; root of context hierarchy
+2018-05-10 15:08:06 [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-05-10 15:08:07 [main] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-05-10 15:08:07 [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b501b1de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-10 15:08:07 [main] Bean 'redisConfig' of type [com.black.kun.raise.config.RedisConfig$$EnhancerBySpringCGLIB$$9a659dfc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-10 15:08:07 [main] Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$fe13e7fc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-10 15:08:07 [main] Bean 'org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$$EnhancerBySpringCGLIB$$f287aca0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-10 15:08:07 [main] Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-10 15:08:07 [main] Bean 'spring.cache-org.springframework.boot.autoconfigure.cache.CacheProperties' of type [org.springframework.boot.autoconfigure.cache.CacheProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-10 15:08:07 [main] Bean 'cacheManagerCustomizers' of type [org.springframework.boot.autoconfigure.cache.CacheManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-10 15:08:07 [main] Bean 'org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration' of type [org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration$$EnhancerBySpringCGLIB$$a31948fa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-10 15:08:07 [main] Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-10 15:08:07 [main] Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$ca1b7028] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-10 15:08:07 [main] Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-10 15:08:07 [main] Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-10 15:08:07 [main] Bean 'cacheManager' of type [org.springframework.data.redis.cache.RedisCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-10 15:08:07 [main] Bean 'cacheAutoConfigurationValidator' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$CacheManagerValidator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-10 15:08:08 [main] Tomcat initialized with port(s): 8080 (http)
+2018-05-10 15:08:08 [main] Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-10 15:08:08 [main] Starting service [Tomcat]
+2018-05-10 15:08:08 [main] Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-05-10 15:08:08 [localhost-startStop-1] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-05-10 15:08:08 [localhost-startStop-1] Initializing Spring embedded WebApplicationContext
+2018-05-10 15:08:08 [localhost-startStop-1] Root WebApplicationContext: initialization completed in 3003 ms
+2018-05-10 15:08:08 [localhost-startStop-1] Servlet dispatcherServlet mapped to [/]
+2018-05-10 15:08:08 [localhost-startStop-1] Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-10 15:08:08 [localhost-startStop-1] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-10 15:08:08 [localhost-startStop-1] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-10 15:08:08 [localhost-startStop-1] Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-10 15:08:08 [main] HikariPool-1 - Starting...
+2018-05-10 15:08:09 [main] HikariPool-1 - Start completed.
+2018-05-10 15:08:10 [main] Mapped "{[/test/testEnv],methods=[POST]}" onto public com.black.kun.raise.entity.vo.BaseResponse com.black.kun.raise.controller.demo.TestController.testEnv()
+2018-05-10 15:08:10 [main] Mapped "{[/test/testValidation],methods=[POST]}" onto public com.black.kun.raise.entity.vo.BaseResponse com.black.kun.raise.controller.demo.TestController.testValidation(com.black.kun.raise.entity.vo.TestVo,org.springframework.validation.BindingResult)
+2018-05-10 15:08:10 [main] Mapped "{[/test/aopValidation],methods=[POST]}" onto public com.black.kun.raise.entity.vo.BaseResponse com.black.kun.raise.controller.demo.TestController.aopValidation(com.black.kun.raise.entity.vo.TestAop)
+2018-05-10 15:08:10 [main] Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-05-10 15:08:10 [main] Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-05-10 15:08:10 [main] Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-05-10 15:08:10 [main] Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-05-10 15:08:10 [main] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-10 15:08:10 [main] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-10 15:08:11 [main] Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@30b34287: startup date [Thu May 10 15:08:05 CST 2018]; root of context hierarchy
+2018-05-10 15:08:11 [main] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-10 15:08:11 [main] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-10 15:08:11 [main] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-10 15:08:12 [main] SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@30b34287: startup date [Thu May 10 15:08:05 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-05-10 15:08:12 [main] ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-05-10 15:08:12 [main] Registering beans for JMX exposure on startup
+2018-05-10 15:08:12 [main] Bean with name 'raiseDataSource' has been autodetected for JMX exposure
+2018-05-10 15:08:12 [main] Located MBean 'raiseDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=raiseDataSource,type=HikariDataSource]
+2018-05-10 15:08:12 [main] Starting beans in phase 2147483647
+2018-05-10 15:08:12 [main] Context refreshed
+2018-05-10 15:08:12 [main] Found 1 custom documentation plugin(s)
+2018-05-10 15:08:12 [main] Scanning for api listing references
+2018-05-10 15:08:12 [main] Starting ProtocolHandler ["http-nio-8080"]
+2018-05-10 15:08:12 [main] Using a shared selector for servlet write/read
+2018-05-10 15:08:12 [main] Tomcat started on port(s): 8080 (http) with context path ''
+2018-05-10 15:08:12 [main] Started RaiseApplication in 9.041 seconds (JVM running for 11.536)
+2018-05-10 15:09:06 [Thread-22] Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@30b34287: startup date [Thu May 10 15:08:05 CST 2018]; root of context hierarchy
+2018-05-10 15:09:06 [Thread-22] Stopping beans in phase 2147483647
+2018-05-10 15:09:06 [Thread-22] Unregistering JMX-exposed beans on shutdown
+2018-05-10 15:09:06 [Thread-22] Unregistering JMX-exposed beans
+2018-05-10 15:09:06 [Thread-22] HikariPool-1 - Shutdown initiated...
+2018-05-10 15:09:06 [Thread-22] HikariPool-1 - Shutdown completed.
