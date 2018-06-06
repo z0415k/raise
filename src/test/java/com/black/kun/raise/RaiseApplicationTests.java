@@ -1,5 +1,6 @@
 package com.black.kun.raise;
 
+import com.black.kun.raise.entity.vo.TestVo;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.junit.Test;

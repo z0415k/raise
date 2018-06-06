@@ -14,10 +14,7 @@ import org.springframework.data.hadoop.hbase.HbaseTemplate;
 import org.springframework.data.hadoop.hbase.RowMapper;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 
 /**
@@ -57,8 +54,12 @@ public class TestController {
     @RequestMapping(value = "/aopValidation",method = RequestMethod.POST )
     @Check({"id","name"})
     public BaseResponse aopValidation(@RequestBody TestAop req){
-
-
         return new BaseResponse();
+    }
+
+    @ApiOperation("测试ControllerAdvice")
+    @PostMapping("/testControllerAdvice")
+    public int controllerAdvice(){
+        return 0;
     }
 }

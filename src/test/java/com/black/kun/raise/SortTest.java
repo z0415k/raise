@@ -1,5 +1,7 @@
 package com.black.kun.raise;
 
+import com.black.kun.raise.entity.vo.TestVo;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -16,10 +18,17 @@ public class SortTest {
 //        Arrays.sort(test);
 //        Arrays.stream(test).forEach(System.out::println);
 //        System.out.println(recursionBinarySearch(test,1,0,5));
-        String a = new String("abc");
+        String a = "abc";
         String b = new String("abc");
         System.out.println(a==b);
         System.out.println(a.equals(b));
+
+//        TestVo aa = new TestVo();
+//        TestVo bb = new TestVo();
+//        System.out.println(aa.equals(bb));
+//        System.out.println(aa==bb);
+//        double aaaa = Double.NaN;
+//        System.out.println(aaaa);
     }
 
     //bubble
@@ -90,7 +99,5 @@ public class SortTest {
         }
 
     }
-
-
 
 }

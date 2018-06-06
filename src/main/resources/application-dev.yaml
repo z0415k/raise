@@ -50,11 +50,9 @@ spring:
       repositories:
         enabled: true
       cluster-name: elasticsearch_zk
-
 localhost: 127.0.0.1
 hbase.zookeeper.port: 2181
 spring.elasticsearch.port: 9300
 
 logging:
   config: classpath:log/log4j2-dev.yaml
-
