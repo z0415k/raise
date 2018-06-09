@@ -9,6 +9,7 @@ import org.springframework.cache.annotation.EnableCaching;
  * @author zk
  */
 @SpringBootApplication
+@EnableCaching
 public class RaiseApplication {
 
 	public static void main(String[] args) {

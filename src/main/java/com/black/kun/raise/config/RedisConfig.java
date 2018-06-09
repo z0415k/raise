@@ -16,8 +16,7 @@ import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 /**
  * @author zk
  */
-@Configuration
-@EnableCaching
+//@Configuration
 public class RedisConfig extends CachingConfigurerSupport {
     @Bean
     public RedisTemplate<String, String> redisTemplate(RedisConnectionFactory redisConnectionFactory){

@@ -26,7 +26,7 @@ public class GlobalExceptionWrapper {
      * @param e
      * @return
      */
-    @ExceptionHandler(Exception.class)
+//    @ExceptionHandler(Exception.class)
     @ResponseBody
     public Wrap AccountExceptionHandler(HttpServletRequest request, HttpServletResponse response, Exception e) {
         e.printStackTrace();
