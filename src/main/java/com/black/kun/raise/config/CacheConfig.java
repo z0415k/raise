@@ -56,7 +56,7 @@ public class CacheConfig {
                 .fromConnectionFactory(redisConnectionFactory).build();
 
 
-        cn.huimin100.cms.config.cache.AppCacheManage appCacheManage = new cn.huimin100.cms.config.cache.AppCacheManage();
+        AppCacheManage appCacheManage = AppCacheManage();
         appCacheManage.setRedisCacheManager(redisCacheManager);
         appCacheManage.setEhCacheManager(ehCacheCacheManager);
         return appCacheManage;
