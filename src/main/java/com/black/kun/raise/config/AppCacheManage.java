@@ -1,4 +1,3 @@
-package cn.huimin100.cms.config.cache;
 
 import org.springframework.cache.Cache;
 import org.springframework.cache.CacheManager;
